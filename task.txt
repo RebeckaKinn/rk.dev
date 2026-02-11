@@ -1,0 +1,23 @@
+# Brief
+Develop a SPA (Single Page Application) portfolio website using HTML, CSS and Vanilla JS only. 
+In other words, no CSS/JS Frameworks are allowed. 
+
+ 
+The following assignments are required to be featured on your portfolio website:  
+- Cross Course Project (Rainydays)  
+- JavaScript 1  
+- Semester Project 1 
+
+You’re expected to make at least one improvement to the individual projects listed above, 
+regardless if you were given feedback on them by your teachers.
+
+Revisit all above mentioned projects and polish them up to be ready to feature on your portfolio website. 
+
+Create (if you haven’t already) or update your own personal GitHub profile README.md to contain the latest information. 
+In addition, document each of the required projects by updating their individual README.md files. 
+Please see the links to templates below under resources for a guide. 
+
+Write brief reflections of each project in a PDF file. 
+
+Lastly, create a video presentation of the portfolio website. Please refer to the topic 
+“Presentation and Professional Documentation” in Module 2 for guidance.
