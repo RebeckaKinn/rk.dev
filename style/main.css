@@ -10,6 +10,8 @@
 	--bg: #0b0f14;
 	--text: #e7edf5;
     --statement-font: "Ms Madi", cursive;
+
+	--banner_img: url(../img/banner/banner_test.jpg);
 }
 
 html,
@@ -46,8 +48,10 @@ img{
   font-weight: 400;
   font-style: normal;
 }
-
-/*testing*/
-main{
-	margin-top: 200px;
+.remove-margin{
+	margin: 0;
 }
+/*testing*/
+/* main{
+	margin-top: 200px;
+} */
