@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ms+Madi&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *,
 *::before,
 *::after {
@@ -8,6 +9,7 @@
 	color-scheme: dark;
 	--bg: #0b0f14;
 	--text: #e7edf5;
+    --statement-font: "Ms Madi", cursive;
 }
 
 html,
@@ -30,5 +32,5 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 100% auto;
+    grid-template-rows: 100% auto;
 }

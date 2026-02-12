@@ -1,0 +1,12 @@
+header{
+    position: fixed;
+    width: 100%;
+    
+    z-index: 20;
+}
+
+.ms-madi-regular {
+  font-family: var( --statement-font);
+  font-weight: 400;
+  font-style: normal;
+}
