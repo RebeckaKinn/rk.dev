@@ -1,12 +1,21 @@
 header{
     position: fixed;
     width: 100%;
-    
     z-index: 20;
+
+    background-color: rgba(0, 0, 0, 0.225);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
-.ms-madi-regular {
-  font-family: var( --statement-font);
-  font-weight: 400;
-  font-style: normal;
+header section{
+  margin: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-image{
+  height: 5rem;
 }
