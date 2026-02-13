@@ -12,10 +12,11 @@ function banner(){
     return /*HTML*/`
     <section class="banner">
         <div>
-            <h1>hi</h1>
+            <h1>Frontend developer</h1>
+            <button class="button glow click">< contact me to know more /></button>
         </div>
         <div>
-            <div class="profile-circle center">
+            <div class="profile-circle center click">
                 <img src="./img/profile/profile_1.jfif" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
             </div>
         </div>

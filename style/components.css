@@ -1,9 +1,3 @@
-.center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .banner {
     position: relative;
@@ -47,9 +41,13 @@
     border-radius: 50%;
 
     box-shadow:
-        inset 0 0 6px var(--main-blue),
-        0 0 6px var(--main-blue);
+        inset 0 0 10px var(--main-blue),
+        0 0 10px var(--main-blue);
     z-index: 2;
+}
+
+.glow{
+    box-shadow: 0 0 10px var(--main-blue);
 }
 
 .profile-circle img{
@@ -57,4 +55,21 @@
     border-radius: 50%;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     z-index: 1;
+}
+
+.button{
+    padding: 10px 20px;
+    color: var(--bg);
+    background-color: var(--main-blue);
+    border: none;
+    border-radius: 1rem;
+}
+
+.click{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.click:hover {
+    transform: scale(1.2); 
 }

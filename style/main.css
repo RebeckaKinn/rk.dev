@@ -52,6 +52,17 @@ img{
 .remove-margin{
 	margin: 0;
 }
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fullSize{
+	height: 100%;
+	width: 100%;
+}
 /*testing*/
 /* main{
 	margin-top: 200px;

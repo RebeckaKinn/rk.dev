@@ -1,3 +1,5 @@
+let page = "home";
+
 function drawPage(){
     document.getElementById('app').innerHTML = /*HTML*/`
         <header>${header()}</header>
@@ -7,5 +9,11 @@ function drawPage(){
 }
 
 function createMainContent(){
-    return mainPage();
+    if(page == "home") return mainPage();
+    else return errorPage();
+}
+
+function changePage(newPage){
+    page = newPage;
+    drawPage();
 }
