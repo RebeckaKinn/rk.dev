@@ -1,10 +1,17 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner {
     position: relative;
     height: 600px;
     width: 100%;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -28,5 +35,26 @@
 
 .banner > * {
     position: relative;
+    z-index: 1;
+}
+
+
+.profile-circle{
+    height: 200px;
+    aspect-ratio: 1/1;
+
+    border: 2px solid var(--main-blue);
+    border-radius: 50%;
+
+    box-shadow:
+        inset 0 0 6px var(--main-blue),
+        0 0 6px var(--main-blue);
+    z-index: 2;
+}
+
+.profile-circle img{
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     z-index: 1;
 }

@@ -11,7 +11,14 @@ function mainPage(){
 function banner(){
     return /*HTML*/`
     <section class="banner">
-        <h1>hi</h1>
+        <div>
+            <h1>hi</h1>
+        </div>
+        <div>
+            <div class="profile-circle center">
+                <img src="" alt="" loading="lazy">
+            </div>
+        </div>
     </section>
     `;
 }
