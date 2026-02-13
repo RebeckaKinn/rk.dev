@@ -16,7 +16,7 @@ function banner(){
         </div>
         <div>
             <div class="profile-circle center">
-                <img src="./img/profile/profile_1.jfif" alt="" loading="lazy">
+                <img src="./img/profile/profile_1.jfif" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
             </div>
         </div>
     </section>
