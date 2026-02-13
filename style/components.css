@@ -63,6 +63,7 @@
     background-color: var(--main-blue);
     border: none;
     border-radius: 1rem;
+    font-family: var(--code-font);
 }
 
 .click{
