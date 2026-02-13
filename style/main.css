@@ -23,13 +23,7 @@ html,
 body {
 	height: 100%;
 	margin: 0;
-	font-family:
-		ui-sans-serif,
-		system-ui,
-		-apple-system,
-		Segoe UI,
-		Roboto,
-		Arial;
+	font-family: var(--main-font);
 	background: var(--bg);
 	color: var(--text);
 }
@@ -67,7 +61,8 @@ img{
 	height: 100%;
 	width: 100%;
 }
-/*testing*/
-/* main{
-	margin-top: 200px;
-} */
+
+.page-margin{
+	padding-left: 5%;
+	padding-right: 5%;
+}

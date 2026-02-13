@@ -1,12 +1,8 @@
 
 .banner {
     position: relative;
-    height: 600px;
+    height: 80%;
     width: 100%;
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .banner::before {
@@ -32,9 +28,25 @@
     z-index: 1;
 }
 
+.banner-content{
+    padding-top: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner-information{
+    max-width: 500px;
+}
+
 
 .profile-circle{
-    height: 200px;
+    width: 100%;
+    max-width: 200px;
+    min-width: 150px;
     aspect-ratio: 1/1;
 
     border: 2px solid var(--main-blue);
@@ -73,4 +85,18 @@
 
 .click:hover {
     transform: scale(1.2); 
+}
+
+@media screen and (max-width: 550px){
+    .banner-content{
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 70px;
+    }
+    .profile-circle{
+        order: -1;
+    }
+        .banner {
+        height: 100%;
+    }
 }
