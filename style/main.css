@@ -19,6 +19,15 @@
 	--banner_img: url(../img/banner/banner_city_1.jpg);
 }
 
+.heading{
+	font-size: 40px;
+	font-weight: 800;
+}
+p{
+	line-height: 1.5;
+	font-weight: 200;
+}
+
 html,
 body {
 	height: 100%;

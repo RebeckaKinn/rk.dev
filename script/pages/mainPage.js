@@ -13,8 +13,9 @@ function banner(){
     <section class="banner">
         <div class="banner-content fullSize page-margin">
             <div class="banner-information">
-                <h1>A Developer Passionate About Creative and Functional Web Solutions</h1>
-                <p>I design and build modern, user-friendly web experiences that combine creativity with functionality. Explore my projects and feel free to reach out!</p>
+                <h1 class="heading">A Developer Passionate About Creative and Functional Web Solutions</h1>
+                <p>I design and build modern, user-friendly web experiences that combine creativity with functionality.</p>
+                <p>Explore my projects and feel free to reach out!</p>
                 <button class="button glow click">< contact me to know more /></button>
             </div>
                 <div class="profile-circle center click">
