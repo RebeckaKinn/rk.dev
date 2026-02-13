@@ -1,13 +1,32 @@
-.banner{
-    background-image: var(--banner_img);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.banner {
+    position: relative;
     height: 600px;
     width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: var(--banner_img);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: grayscale(70%);
+
+    -webkit-mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
+    mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
+
+    z-index: 0;
+}
+
+.banner > * {
+    position: relative;
+    z-index: 1;
 }
