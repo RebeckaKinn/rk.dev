@@ -42,6 +42,15 @@
     max-width: 500px;
 }
 
+.banner-information p{
+    font-weight: 400;
+}
+.heading span{
+	font-size: 50px;
+	font-weight: 1000;
+    color: var(--bg2);
+    text-shadow: var(--text) 0px 0px 10px;
+}
 
 .profile-circle{
     width: 100%;
