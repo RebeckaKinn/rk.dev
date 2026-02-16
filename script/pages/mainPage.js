@@ -7,7 +7,9 @@ function mainPage(){
             <p>Here is some of my larger projects. Feel free to check them out. Or visit my GitHub to view some of my other work:</p>
             <a href="https://github.com/RebeckaKinn" target="_blank" class="button glow click center">github.com/RebeckaKinn</a>
         </div>
-        ${projectCards()}
+        <div class="project-list">
+            ${projectCards()}
+        </div>
     </section>
     `;
 }

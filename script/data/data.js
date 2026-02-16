@@ -1,7 +1,8 @@
 const projectData = [
     {
         id: 1,
-        thumbnail: "./img/projects/raindydays_thumbnail.jpg",
+        thumbnail: "./img/projects/rainydays_screenshot.jpg",
+        logo: "./img/projects/RainyDays_Logo_inverted_full.png",
         title: "Rainydays",
         description: "A modern and light designed website for outdoor clothing. Keeping it modern and simple while enhances the thrill of the outdoors.",
         repoLink: "https://github.com/RebeckaKinn/html-css-ca-rebecka-kinn",
@@ -9,7 +10,8 @@ const projectData = [
     },
     {
         id: 2,
-        thumbnail: "./img/projects/playbox_thumbnail.jpg",
+        thumbnail: "./img/projects/playbox_screenshot.jpg",
+        logo: "./img/projects/logo.png",
         title: "Playbox",
         description: "An online game store, witn inspiration from Steam and Gamestop.",
         repoLink: "https://github.com/RebeckaKinn/JS1_Course_Assignment",
@@ -17,7 +19,8 @@ const projectData = [
     },
     {
         id: 3,
-        thumbnail: "./img/projects/museum_thumbnail.jpg",
+        thumbnail: "./img/projects/museum_screenshot.jpg",
+        logo: "./img/projects/color-light-logo.svg",
         title: "Science Museum",
         description: "An informative museum-website with families in mind. Fun and playful design while holding onto the classic museum-feel.",
         repoLink: "https://github.com/RebeckaKinn/semester_project_1_museum",
@@ -29,3 +32,5 @@ const projectData = [
 function getProjectData(){
     return projectData || [];
 }
+
+

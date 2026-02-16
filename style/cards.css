@@ -1,20 +1,44 @@
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
 .project_card{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    column-gap: 2rem;
-    margin-top: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 40%;
+
+    width: 100%;
+    max-width: 500px;
 }
 
 
 .card_information{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 .card_information h1{
     font-family: var(--code-font);
     font-weight: 100;
     color: var(--main-blue);
-    margin: 0;
+    margin-bottom: 0;
 }
 
+.button-container{
+    display: flex;
+    gap: 2rem;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 550px){
+    .project_card{
+        grid-template-rows: auto auto;
+    }
+
+    .project_card img{
+        object-fit: contain;
+    }
+}
