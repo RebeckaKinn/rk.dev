@@ -16,7 +16,7 @@ function banner(){
                 <h1 class="heading">A Developer Passionate About Creative and Functional Web Solutions</h1>
                 <p>I design and build modern, user-friendly web experiences that combine creativity with functionality.</p>
                 <p>Explore my projects and feel free to reach out!</p>
-                <button class="button glow click">< contact me to know more /></button>
+                <a href="mailto:becka_1994@hotmail.com" class="button glow click">< email me to know more /></a>
             </div>
                 <div class="profile-circle center click">
                     <img src="./img/profile/profile_1.jfif" alt="Profile image - an image of Rebecka Kinn" loading="lazy">

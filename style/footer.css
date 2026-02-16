@@ -1,0 +1,6 @@
+.footer-section{
+    padding: 20px;
+    font-family: var(--code-font);
+    font-size: 13px;
+    color: var(--grey);
+}

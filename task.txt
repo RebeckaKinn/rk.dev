@@ -21,3 +21,20 @@ Write brief reflections of each project in a PDF file.
 
 Lastly, create a video presentation of the portfolio website. Please refer to the topic 
 “Presentation and Professional Documentation” in Module 2 for guidance.
+
+Process
+[x] Create and or update personal GitHub profile page. 
+[] Create and or update all three GitHub project repositories. 
+[] Build a portfolio website consisting of 3 project cards with the following: 
+    - [] The project thumbnail (web, png or jpeg and optimized to <=200KB).  
+    - [] The project title.  
+    - [] The project description (a teaser of max 15-20 words).  
+    - [] The GitHub project repository link.  
+    - [] The project demo or live website link.  
+[] Attach latest updated CV/Resume on the portfolio website. 
+[] Attach latest updated Cover Letter on the portfolio website. 
+[] Document each project in a PDF file and include: 
+    - [] Title and link of each project. 
+    - [] A reflection of each project. 
+    - [] Improvements made on each project, accompanied by GitHub commit links. 
+[] Record a 5-minute video presenting your website portfolio. 

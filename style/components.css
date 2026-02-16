@@ -46,7 +46,7 @@
 .profile-circle{
     width: 100%;
     max-width: 200px;
-    min-width: 150px;
+    min-width: 100px;
     aspect-ratio: 1/1;
 
     border: 2px solid var(--main-blue);
@@ -76,6 +76,10 @@
     border: none;
     border-radius: 1rem;
     font-family: var(--code-font);
+    font-size: 14px;
+}
+a {
+  text-decoration: none;
 }
 
 .click{
@@ -95,6 +99,7 @@
         padding-bottom: 70px;
     }
     .profile-circle{
+        max-width: 150px;
         order: -1;
     }
         .banner {
