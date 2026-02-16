@@ -30,7 +30,7 @@
 .button-container{
     display: flex;
     gap: 2rem;
-    margin-top: auto;
+    
 }
 
 @media screen and (max-width: 550px){

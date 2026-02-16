@@ -80,3 +80,17 @@ img{
 	flex-direction: column;
 	gap: 2rem;
 }
+
+ul, ol {
+  list-style: none; 
+  margin: 0;        
+  padding: 0;       
+}
+button {
+  all: unset;
+  cursor: pointer; 
+}
+
+.bottom{
+	margin-top: auto;
+}

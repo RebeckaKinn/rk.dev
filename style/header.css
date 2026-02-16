@@ -10,7 +10,14 @@ header{
 }
 
 header section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
   margin: 1rem 2rem .3rem 2rem;
+}
+
+.header-logo{
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -18,4 +25,35 @@ header section{
 
 .logo-image{
   height: 4rem;
+}
+
+header button.link_tag{
+  color: var(--text);
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-shadow: var(--bg) 0px 0px 10px;
+}
+
+
+
+
+@media screen and (max-width: 610px){
+  header .button-container{
+    flex-direction: column;
+    gap: 0;
+
+  }
+  header .button-container span{
+        display: none; 
+  }
+  header .button-container li{
+        margin: .5rem 0;
+  }
+
+}
+@media screen and (max-width: 468px){
+  header .button-container{
+    display: none;
+
+  }
 }
