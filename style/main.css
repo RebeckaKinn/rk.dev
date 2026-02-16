@@ -76,3 +76,9 @@ img{
 	padding-left: 5%;
 	padding-right: 5%;
 }
+
+.main-page{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}

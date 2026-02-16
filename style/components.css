@@ -70,6 +70,7 @@
 }
 
 .button{
+    width: fit-content;
     padding: 10px 20px;
     color: var(--bg);
     background-color: var(--main-blue);

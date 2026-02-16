@@ -25,3 +25,7 @@ const projectData = [
     },
 
 ];
+
+function getProjectData(){
+    return projectData || [];
+}

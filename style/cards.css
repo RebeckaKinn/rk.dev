@@ -1,0 +1,20 @@
+.project_card{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 2rem;
+    margin-top: 1rem;
+}
+
+
+.card_information{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card_information h1{
+    font-family: var(--code-font);
+    font-weight: 100;
+    color: var(--main-blue);
+    margin: 0;
+}
+

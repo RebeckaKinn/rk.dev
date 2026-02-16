@@ -1,9 +1,13 @@
 function mainPage(){
     return /*HTML*/`
     ${banner()}
-    <section class="page-margin">
-        <h1>main page</h1>
-    
+    <section class="page-margin main-page">
+        <div>
+            <h1>Projects</h1>
+            <p>Here is some of my larger projects. Feel free to check them out. Or visit my GitHub to view some of my other work:</p>
+            <a href="https://github.com/RebeckaKinn" target="_blank" class="button glow click center">github.com/RebeckaKinn</a>
+        </div>
+        ${projectCards()}
     </section>
     `;
 }
@@ -16,7 +20,7 @@ function banner(){
                 <h1 class="heading">A Developer Passionate About Creative and Functional Web Solutions</h1>
                 <p>I design and build modern, user-friendly web experiences that combine creativity with functionality.</p>
                 <p>Explore my projects and feel free to reach out!</p>
-                <a href="mailto:becka_1994@hotmail.com" class="button glow click">< email me to know more /></a>
+                <a href="mailto:becka_1994@hotmail.com" class="button glow click center">< email me to know more /></a>
             </div>
                 <div class="profile-circle center click">
                     <img src="./img/profile/profile_1.jfif" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
@@ -26,31 +30,3 @@ function banner(){
     `;
 }
 
-/*
-About Me
-
-Hi! My name is Rebecka Sandbrekkene Kinn, and I am a motivated web developer with a strong passion for combining creativity and technology. I enjoy building interactive, responsive, and visually appealing websites while continuously learning new tools and technologies.
-
-I share my projects on GitHub and use LinkedIn to connect with other professionals and grow my network. My goal is to create digital experiences that are both functional and engaging, while constantly improving my skills as a developer.
-
-Skills
-
-Frontend Development: HTML, CSS, JavaScript
-
-Responsive Design: Creating websites that work across all devices
-
-Version Control: Git & GitHub
-
-UI/UX Awareness: Designing user-focused and intuitive interfaces
-
-Contact
-
-I am always open to new opportunities, collaborations, or simply connecting with other developers.
-
-Email: (Add your email here)
-
-LinkedIn
-
-GitHub
-
-*/
