@@ -25,12 +25,12 @@ Lastly, create a video presentation of the portfolio website. Please refer to th
 Process
 [x] Create and or update personal GitHub profile page. 
 [] Create and or update all three GitHub project repositories. 
-[] Build a portfolio website consisting of 3 project cards with the following: 
-    - [] The project thumbnail (web, png or jpeg and optimized to <=200KB).  
-    - [] The project title.  
-    - [] The project description (a teaser of max 15-20 words).  
-    - [] The GitHub project repository link.  
-    - [] The project demo or live website link.  
+[x] Build a portfolio website consisting of 3 project cards with the following: 
+    - [x] The project thumbnail (web, png or jpeg and optimized to <=200KB).  
+    - [x] The project title.  
+    - [x] The project description (a teaser of max 15-20 words).  
+    - [x] The GitHub project repository link.  
+    - [x] The project demo or live website link.  
 [] Attach latest updated CV/Resume on the portfolio website. 
 [] Attach latest updated Cover Letter on the portfolio website. 
 [] Document each project in a PDF file and include: 

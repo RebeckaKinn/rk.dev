@@ -9,8 +9,9 @@ function projectCards(){
                 <h1>${project.title}</h1>
                 <p>${project.description}</p>
                 <div class="button-container">
-                    <a class="button glow click center" href=${project.repoLink} target="_blank">View the code</a>
-                    <a class="button glow click center" href=${project.demoLink} target="_blank">Open demo</a>
+                    <a class="link_tag click center" href=${project.repoLink} target="_blank">View the code</a>
+                    <span class="link_tag">&#124;&#124;</span>
+                    <a class="link_tag click center" href=${project.demoLink} target="_blank">Open demo</a>
                 </div>
             </div>
         </article>
