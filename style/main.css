@@ -25,7 +25,7 @@
 	font-size: 30px;
 	font-weight: 700;
 }
-p{
+p, span{
 	line-height: 1.5;
 	font-weight: 200;
 }
@@ -87,6 +87,15 @@ ul, ol {
   margin: 0;        
   padding: 0;       
 }
+ul.list{
+	list-style:disc; 
+	padding-left: 1rem;
+}
+.flex-col-1rem{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
 button {
   all: unset;
   cursor: pointer; 
@@ -98,4 +107,5 @@ button {
 
 .top-margin{
 	margin-top: 120px;
+
 }

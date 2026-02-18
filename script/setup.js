@@ -1,4 +1,4 @@
-let page = "home";
+let page = "about"; //for testing. "home" for default
 
 function drawPage(){
     document.getElementById('app').innerHTML = /*HTML*/`

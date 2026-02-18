@@ -11,7 +11,7 @@ function header(){
 
         <ul class="button-container">
             <li>
-                <button onclick="changePage('about')" class="link_tag click">about me</button>
+                <button onclick="changePage('about')" class="link_tag click">about</button>
             </li>
             <span class="link_tag">&#124;&#124;</span>
             <li>
