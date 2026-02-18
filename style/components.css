@@ -99,6 +99,10 @@ a {
     font-size: 14px;
     
 }
+.link_tag.white{
+    color: var(--text);
+    text-shadow: var(--text) 0px 0px 10px;
+}
 
 .click{
     transition: transform 0.3s ease;
@@ -108,6 +112,8 @@ a {
 .click:hover {
     transform: scale(1.2); 
 }
+
+
 
 @media screen and (max-width: 550px){
     .banner-content{

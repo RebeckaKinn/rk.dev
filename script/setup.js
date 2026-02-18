@@ -10,7 +10,7 @@ function drawPage(){
 
 function createMainContent(){
     if(page == "home") return mainPage();
-    else if(page == "resume" || page == "coverLetter") documentationPage(page)
+    else if(page == "resume" || page == "coverLetter") return documentationPage(page)
     else return errorPage();
 }
 

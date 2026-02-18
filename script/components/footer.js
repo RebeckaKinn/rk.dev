@@ -9,10 +9,14 @@ function footer(){
                     <h3>Links</h3>
                     <ul class="footer-link-list">
                         <li>
-                             <button onclick="changePage('resume')" class="link_tag click">resume</button>
+                             <button onclick="changePage('resume')" class="link_tag click">resume</button> 
+                             <span class="link_tag white">&#124;&#124;</span>
+                             <a href=${getResumeData().link} class="link_tag click" download>download</a>
                         </li>
                         <li>
                             <button onclick="changePage('coverLetter')" class="link_tag click">cover letter</button>
+                            <span class="link_tag white">&#124;&#124;</span>
+                            <a href=${getCoverLetterData().link} class="link_tag click" download>download</a>
                         </li>
                         <li>
                              <a href="https://github.com/RebeckaKinn" target="_blank" class="link_tag click">github.com/RebeckaKinn</a>
