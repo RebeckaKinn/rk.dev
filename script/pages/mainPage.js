@@ -22,7 +22,7 @@ function banner(){
                 <h1 class="heading"><span>Frontend developer</span> with passion for creativity and functionality</h1>
                 <p>I design and build modern, user-friendly web experiences that combine creativity with functionality.</p>
                 <p>Explore my projects and feel free to reach out!</p>
-                <a href="mailto:becka_1994@hotmail.com" class="button glow click center">< email me to know more /></a>
+                <button onclick="changePage('about')" class="button glow click center">< get to know me /></button>
             </div>
                 <div class="profile-circle center click">
                     <img src="./img/profile/profile_1.jfif" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
