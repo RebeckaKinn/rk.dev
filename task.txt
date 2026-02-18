@@ -31,8 +31,8 @@ Process
     - [x] The project description (a teaser of max 15-20 words).  
     - [x] The GitHub project repository link.  
     - [x] The project demo or live website link.  
-[] Attach latest updated CV/Resume on the portfolio website. 
-[] Attach latest updated Cover Letter on the portfolio website. 
+[x] Attach latest updated CV/Resume on the portfolio website. 
+[x] Attach latest updated Cover Letter on the portfolio website. 
 [] Document each project in a PDF file and include: 
     - [] Title and link of each project. 
     - [] A reflection of each project. 
