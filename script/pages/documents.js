@@ -11,7 +11,7 @@ function documentationPage(docPage){
 
     console.log(docs)
     return /*HTML*/`
-        <section class="page-margin top-margin main-page">
+        <section class="page-margin top-margin main-page info-page-width-cap">
             <div>
                 <h1>${docs.title}</h1>
                 <p>${docs.description}</p>

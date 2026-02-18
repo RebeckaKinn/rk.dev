@@ -1,13 +1,13 @@
 function mainPage(){
     return /*HTML*/`
     ${banner()}
-    <section class="page-margin main-page">
-        <div>
+    <section class="main-page">
+        <div class="info-page-width-cap">
             <h1>Projects</h1>
             <p>Here is some of my larger projects. Feel free to check them out. Or visit my GitHub to view some of my other work:</p>
             <a href="https://github.com/RebeckaKinn" target="_blank" class="button glow click center">github.com/RebeckaKinn</a>
         </div>
-        <div class="project-list">
+        <div class="project-list page-margin">
             ${projectCards()}
         </div>
     </section>

@@ -1,6 +1,6 @@
 function about(){
     return /*HTML*/`
-    <section class="top-margin page-margin main-page">
+    <section class="top-margin page-margin main-page info-page-width-cap">
         <h1>About me</h1>
         <div>
             <h2>Contact</h2>

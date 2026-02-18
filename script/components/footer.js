@@ -9,6 +9,9 @@ function footer(){
                     <h3>Links</h3>
                     <ul class="footer-link-list">
                         <li>
+                             <button onclick="changePage('about')" class="link_tag click">about me</button> 
+                        </li>
+                        <li>
                              <button onclick="changePage('resume')" class="link_tag click">resume</button> 
                              <span class="link_tag white">&#124;&#124;</span>
                              <a href=${getResumeData().link} class="link_tag click" download>download</a>
