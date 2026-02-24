@@ -33,8 +33,8 @@ Process
     - [x] The project demo or live website link.  
 [x] Attach latest updated CV/Resume on the portfolio website. 
 [x] Attach latest updated Cover Letter on the portfolio website. 
-[] Document each project in a PDF file and include: 
-    - [] Title and link of each project. 
-    - [] A reflection of each project. 
-    - [] Improvements made on each project, accompanied by GitHub commit links. 
+[x] Document each project in a PDF file and include: 
+    - [x] Title and link of each project. 
+    - [x] A reflection of each project. 
+    - [x] Improvements made on each project, accompanied by GitHub commit links. 
 [] Record a 5-minute video presenting your website portfolio. 
