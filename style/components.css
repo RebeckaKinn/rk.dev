@@ -1,132 +1,128 @@
-
 .banner {
-    position: relative;
-    height: 600px;
-    width: 100%;
+  position: relative;
+  height: 600px;
+  width: 100%;
 }
 
 .banner::before {
-    content: "";
-    position: absolute;
-    inset: 0;
+  content: "";
+  position: absolute;
+  inset: 0;
 
-    background-image: var(--banner_img);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: var(--banner_img);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    filter: grayscale(70%);
+  filter: grayscale(70%);
 
-    -webkit-mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
-    mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
+  mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
 
-    z-index: 0;
+  z-index: 0;
 }
 
 .banner > * {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
-.banner-content{
-    padding-top: 70px;
+.banner-content {
+  padding-top: 70px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
 }
 
-.banner-information{
-    max-width: 500px;
+.banner-information {
+  max-width: 500px;
 }
 
-.banner-information p{
-    font-weight: 400;
+.banner-information p {
+  font-weight: 400;
 }
-.heading span{
-	font-size: 50px;
-	font-weight: 1000;
-    color: var(--bg2);
-    text-shadow: var(--text) 0px 0px 10px;
-}
-
-.profile-circle{
-    width: 100%;
-    max-width: 200px;
-    min-width: 100px;
-    aspect-ratio: 1/1;
-
-    border: 2px solid var(--main-blue);
-    border-radius: 50%;
-
-    box-shadow:
-        inset 0 0 10px var(--main-blue),
-        0 0 10px var(--main-blue);
-    z-index: 2;
+.heading span {
+  font-size: 50px;
+  font-weight: 1000;
+  color: var(--bg2);
+  text-shadow: var(--text) 0px 0px 10px;
 }
 
-.glow{
-    box-shadow: 0 0 10px var(--main-blue);
+.profile-circle {
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
+  aspect-ratio: 1/1;
+
+  border: 2px solid var(--main-blue);
+  border-radius: 50%;
+
+  box-shadow:
+    inset 0 0 10px var(--main-blue),
+    0 0 10px var(--main-blue);
+  z-index: 2;
 }
 
-.profile-circle img{
-    padding: 10px;
-    border-radius: 50%;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    z-index: 1;
+.glow {
+  box-shadow: 0 0 10px var(--main-blue);
 }
 
-.button{
-    width: fit-content;
-    padding: 10px 20px;
-    color: var(--bg);
-    background-color: var(--main-blue);
-    border: none;
-    border-radius: 1rem;
-    font-family: var(--code-font);
-    font-size: 14px;
+.profile-circle img {
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  z-index: 1;
+}
+
+.button {
+  width: fit-content;
+  padding: 10px 20px;
+  color: var(--bg);
+  background-color: var(--main-blue);
+  border: none;
+  border-radius: 1rem;
+  font-family: var(--code-font);
+  font-size: 14px;
 }
 a {
   text-decoration: none;
 }
 
-.link_tag{
-    text-shadow: var(--main-blue) 0px 0px 10px;
-    font-family: var(--code-font);
-    color: var(--main-blue);
-    font-size: 14px;
-    
+.link_tag {
+  text-shadow: var(--main-blue) 0px 0px 10px;
+  font-family: var(--code-font);
+  color: var(--main-blue);
+  font-size: 14px;
 }
-.link_tag.white{
-    color: var(--text);
-    text-shadow: var(--text) 0px 0px 10px;
+.link_tag.white {
+  color: var(--text);
+  text-shadow: var(--text) 0px 0px 10px;
 }
 
-.click{
-    transition: transform 0.3s ease;
-    cursor: pointer;
+.click {
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .click:hover {
-    transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
-
-
-@media screen and (max-width: 550px){
-    .banner-content{
-        flex-direction: column;
-        gap: 1rem;
-        justify-content: center;
-        padding-bottom: 70px;
-    }
-    .profile-circle{
-        max-width: 150px;
-        order: -1;
-    }
-        .banner {
-        height: 100vh;
-    }
+@media screen and (max-width: 550px) {
+  .banner-content {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 70px;
+  }
+  .profile-circle {
+    max-width: 150px;
+    order: -1;
+  }
+  .banner {
+    height: 100vh;
+  }
 }

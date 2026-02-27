@@ -1,5 +1,5 @@
-function mainPage(){
-    return /*HTML*/`
+function mainPage() {
+  return /*HTML*/ `
     ${banner()}
     <section class="main-page">
         <div class="info-page-width-cap">
@@ -14,8 +14,8 @@ function mainPage(){
     `;
 }
 
-function banner(){
-    return /*HTML*/`
+function banner() {
+  return /*HTML*/ `
     <section class="banner">
         <div class="banner-content fullSize page-margin">
             <div class="banner-information">
@@ -25,10 +25,9 @@ function banner(){
                 <button onclick="changePage('about')" class="button glow click center">< get to know me /></button>
             </div>
                 <div class="profile-circle center click">
-                    <img src="./img/profile/profile_1.jfif" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
+                    <img src="./img/profile/bildet_2.jpg" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
                 </div>
         </div>
     </section>
     `;
 }
-
