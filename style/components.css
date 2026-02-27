@@ -44,6 +44,32 @@
 .banner-information p {
   font-weight: 400;
 }
+
+.about-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  max-height: 800px;
+  background-image: var(--banner_img_2);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  filter: grayscale(50%);
+
+  -webkit-mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
+  mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
+
+  z-index: 0;
+}
+.about-container > * {
+  position: relative;
+  z-index: 1;
+}
+
 .heading span {
   font-size: 50px;
   font-weight: 1000;
