@@ -29,11 +29,3 @@ function banner() {
     </section>
     `;
 }
-
-function profileImage() {
-  return /*HTML*/ `
-    <div class="profile-circle center">
-        <img src="./img/profile/bildet_2.jpg" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
-    </div>
-    `;
-}

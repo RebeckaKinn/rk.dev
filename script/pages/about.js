@@ -1,23 +1,26 @@
 function about() {
   return /*HTML*/ `
-    <section class="top-margin page-margin main-page info-page-width-cap about-container">
+    <section class="top-margin page-margin main-page info-page-width-cap">
         <h1>About me</h1>
-        <div>
-            <h2>Contact</h2>
-            <ul class="flex-col-1rem">
-                <li>
-                    <span>email:</span>
-                    <a href="mailto:becka_1994@hotmail.com" class="link_tag click">becka_1994@hotmail.com</a>
-                </li>
-                <li>
-                    <span>linkedIn:</span>
-                    <a href="https://www.linkedin.com/in/rebecka-sandbrekkene-kinn/" target="_blank" class="link_tag click">linkedin.com/in/rebecka-sandbrekkene-kinn</a>
-                </li>
-                <li>
-                    <span>gitHub:</span>
-                    <a href="https://www.linkedin.com/in/rebecka-sandbrekkene-kinn/" target="_blank" class="link_tag click">linkedin.com/in/rebecka-sandbrekkene-kinn</a>
-                </li>
-            </ul>
+        <div class="about-container">
+            <div class="contact">
+                <h2>Contact</h2>
+                <ul class="flex-col-1rem">
+                    <li>
+                        <span>email:</span>
+                        <a href="mailto:becka_1994@hotmail.com" class="link_tag click">becka_1994@hotmail.com</a>
+                    </li>
+                    <li>
+                        <span>linkedIn:</span>
+                        <a href="https://www.linkedin.com/in/rebecka-sandbrekkene-kinn/" target="_blank" class="link_tag click">linkedin.com/in/rebecka-sandbrekkene-kinn</a>
+                    </li>
+                    <li>
+                        <span>gitHub:</span>
+                        <a href="https://www.linkedin.com/in/rebecka-sandbrekkene-kinn/" target="_blank" class="link_tag click">linkedin.com/in/rebecka-sandbrekkene-kinn</a>
+                    </li>
+                </ul>
+            </div>
+            ${profileImage()}
         </div>
         <div>
             <h2>Personal Information & Bio</h2>
@@ -52,5 +55,13 @@ function about() {
             <p>I enjoy combining creative design with efficient code to build websites and applications that are both visually appealing and technically robust.</p> 
         </div>
     </section>
+    `;
+}
+
+function profileImage() {
+  return /*HTML*/ `
+    <div class="profile-circle">
+        <img src="./img/profile/bildet_2.jpg" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
+    </div>
     `;
 }
