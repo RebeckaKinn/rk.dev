@@ -24,7 +24,7 @@ function banner() {
                 <p>Explore my projects and feel free to reach out!</p>
                 <button onclick="changePage('about')" class="button glow click center">< get to know me /></button>
             </div>
-                ${profileImage()}
+                
         </div>
     </section>
     `;
@@ -32,7 +32,7 @@ function banner() {
 
 function profileImage() {
   return /*HTML*/ `
-    <div class="profile-circle center click">
+    <div class="profile-circle center">
         <img src="./img/profile/bildet_2.jpg" alt="Profile image - an image of Rebecka Kinn" loading="lazy">
     </div>
     `;

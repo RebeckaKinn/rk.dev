@@ -4,13 +4,12 @@
   width: 100%;
 }
 
-.banner::before {
+.banner::before,
+.banner::after {
   content: "";
   position: absolute;
   inset: 0;
 
-  background-image: var(--banner_img);
-  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -20,6 +19,18 @@
   mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
 
   z-index: 0;
+}
+.banner::before {
+  background-image: var(--banner_img);
+  clip-path: polygon(0 0, 60% 0, 45% 100%, 0% 100%);
+  background-position: center center;
+}
+
+.banner::after {
+  background-image: var(--banner_img_2);
+  clip-path: polygon(60% 0, 100% 0, 100% 100%, 45% 100%);
+  background-position: 100% 0%;
+  background-size: contain;
 }
 
 .banner > * {
@@ -32,13 +43,13 @@
 
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
 }
 
 .banner-information {
   max-width: 500px;
+  margin-left: 10rem;
 }
 
 .banner-information p {
@@ -92,6 +103,9 @@
   z-index: 2;
 }
 
+.profile-image {
+}
+
 .glow {
   box-shadow: 0 0 10px var(--main-blue);
 }
@@ -137,12 +151,38 @@ a {
   transform: scale(1.2);
 }
 
+@media screen and (max-width: 1000px) {
+  .banner::before,
+  .banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: var(--banner_img_2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(70%);
+
+    -webkit-mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
+    mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
+
+    z-index: 0;
+  }
+  .banner-content {
+    align-items: flex-end;
+    padding-bottom: 2rem;
+  }
+  .banner-information {
+    margin-left: 0;
+  }
+}
 @media screen and (max-width: 550px) {
   .banner-content {
     flex-direction: column;
     gap: 1rem;
-    justify-content: center;
-    padding-bottom: 70px;
+    justify-content: flex-end;
+
+    padding-bottom: 10rem;
   }
   .profile-circle {
     max-width: 150px;
@@ -150,5 +190,11 @@ a {
   }
   .banner {
     height: 100vh;
+  }
+  .banner-information {
+    margin-left: 0;
+  }
+  .banner-information button {
+    margin-top: 5rem;
   }
 }
