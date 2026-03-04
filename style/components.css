@@ -133,7 +133,7 @@ a {
     background-size: cover;
     background-position: center center;
     filter: grayscale(70%);
-
+    clip-path: none;
     -webkit-mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
     mask-image: linear-gradient(to bottom, var(--bg) 20%, transparent);
 
@@ -165,6 +165,12 @@ a {
   }
   .profile-circle img {
     max-height: 400px;
+  }
+  .banner::before,
+  .banner::after {
+    background-image: var(--banner_img);
+    -webkit-mask-image: linear-gradient(to bottom, var(--bg) -20%, transparent);
+    mask-image: linear-gradient(to bottom, var(--bg) -20%, transparent);
   }
   .banner {
     height: 100vh;
